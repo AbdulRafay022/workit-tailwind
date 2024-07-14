@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.goal {
+  border-radius: 50%;
+}
+.goal2 {
+  border-radius: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

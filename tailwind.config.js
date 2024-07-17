@@ -2,9 +2,9 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
-      sm: "480px",
+      sm: "792px",
       md: "955px",
-      lg: "1020px",
+      lg: "1090px",
       xl: "1440px",
     },
     extend: {

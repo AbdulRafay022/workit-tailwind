@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth overflow-x-hidden">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,19 +13,21 @@
     />
     <title>Workit&mdash;Tailwind</title>
   </head>
-  <body class="overflow-r-hidden">
+  <body class="md:overflow-x-hidden sm:overflow-x-hidden">
     <div
       class="bg-darkpurple md:h-[440px] absolute w-screen scale-150 goal sm:h-[400px] h-[350px]"
     ></div>
     <section class="w-screen relative h-[400px] md:h-[550px] sm:h-[450px]">
       <!-- navbar -->
-      <nav class="flex items-center justify-between p-10">
+      <nav
+        class="flex items-center w-screen justify-between pt-10 lg:px-48 sm:pl-30 pl-6 pr-6"
+      >
         <!-- Logo -->
         <img src="images/logo-light.svg" alt="" />
         <!-- link -->
         <a
           href="#"
-          class="text-white font-semibold pb-1 border-b-2 border-greenish"
+          class="text-white font-semibold pb-1 border-b-4 md:m-0 border-greenish"
           >Apply for access</a
         >
       </nav>
@@ -49,7 +51,18 @@
         <!-- Hero image -->
         <img
           src="images/image-hero.webp"
-          class="sm:w-2/5 w-4/5 absolute -bottom-36 z-50"
+          class="sm:scale-125 sm:mt-10 z-50"
+          alt=""
+        />
+        <img
+          src="images/bg-pattern-1.svg"
+          class="lg:-translate-x-[550PX] -translate-y-[560px] lg:scale-100 scale-90 -translate-x-[400PX] hidden sm:block"
+          alt=""
+        />
+
+        <img
+          src="images/bg-pattern-2.svg"
+          class="lg:translate-x-[600PX] lg:scale-150 scale-125 -translate-y-[850px] translate-x-[430PX] hidden sm:block"
           alt=""
         />
       </section>
@@ -57,7 +70,7 @@
 
     <!-- description section container -->
     <section
-      class="pt-52 relative bg-ghost pb-8 -z-30 grid gap-x-14 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0 md:px-48 sm:px-24 px-10"
+      class="pt-52 relative bg-ghost pb-8 -z-30 grid gap-x-14 grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-y-0 lg:px-48 sm:px-24 px-10"
     >
       <!-- bg color  -->
       <div
